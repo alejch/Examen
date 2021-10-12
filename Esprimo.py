@@ -13,8 +13,10 @@ def NumeroPrimo(n):
             suma=suma+1
     if suma==2:
         print (n,"es primo")
+        return true
     else:
         print (n,"no es primo")
+        return false
 
 NumeroPrimo(1)
 
